@@ -112,7 +112,7 @@ class Cart
         return  $this->discount_type;
     }
     //получение скидки согласно купону
-    public function getDiscountType($discount) 
+    public function getDiscountType($discount)
     {
         $actions = ACTION; //действие исходя из DISCOUNT_TYPE
         $discount_type = DISCOUNT_TYPE;//купоны
