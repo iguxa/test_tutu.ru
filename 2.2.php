@@ -131,9 +131,9 @@ class Cron{
         $this->fail = $fail_list;
     }
     //составление списка id по которым была сделана поптыка на запуск скрипта на стороннем сервере
-    protected function getCrone($cron_urls):string
+    protected function getCrone($cron_urls):?string
     {
-        $id = false;
+        $id = null;
         foreach ($cron_urls as $cron_url) {
             Curl::setCurl($cron_url);
             $id .= $cron_url['id'].',';
@@ -142,7 +142,7 @@ class Cron{
         return $cron_id;
     }
     //получение списка id у которых успешно и не успешно отработали скрипты на сервере куда была отправлена команда
-    protected function getStatus($crons_status):array
+    protected function getStatus($crons_status):?array
     {
         $status['id_success'] = $crons_status['success'] ?? false;
         $status['id_fail'] = $crons_status['fail'] ?? false;
@@ -150,6 +150,7 @@ class Cron{
         $id_fail = false;
         $cron_id_success = false;
         $cron_id_fail = false;
+        $cron_status = null;
 
         if($status['id_success']){
             foreach ($status['id_success'] as $success) {
@@ -163,8 +164,10 @@ class Cron{
             }
             $cron_id_fail = rtrim($id_fail['id_fail'], ",");
         }
-        $cron_status['id_success'] = $cron_id_success;
-        $cron_status['id_fail'] = $cron_id_fail;
+        if($cron_id_success or $cron_id_fail) {
+            $cron_status['id_success'] = $cron_id_success;
+            $cron_status['id_fail'] = $cron_id_fail;
+        }
 
         return $cron_status;
     }
