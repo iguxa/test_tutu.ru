@@ -60,7 +60,7 @@ class Cart
         return  $this->total_price;
     }
     //получение полной стоимости с учетом скидки
-    public function getDiscountedTotalAmount()
+    public function getDiscountedTotalAmount(): ?int
     {
         $items = $this->_items;
         $items_count = count($items)-1;

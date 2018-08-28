@@ -9,7 +9,7 @@
 
 1.3 http://sandbox.onlinephpfunctions.com/code/b7fc44e4b3cbc2e22655b07ed0b8e4ddaa0165bf
 
-2.1 http://sandbox.onlinephpfunctions.com/code/a02d557e769e12ad3da2be35eeb1127443c3c8fa
+2.1 http://sandbox.onlinephpfunctions.com/code/8d3a2ba4d848e9f74a6f91aa0831ad36df25e61c
 
 2.2 Код абстрактный
 
