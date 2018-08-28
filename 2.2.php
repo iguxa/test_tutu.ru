@@ -26,7 +26,7 @@ class Curl{
         curl_setopt($ch, CURLOPT_POSTFIELDS, $message);
         //curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         //$returned = curl_exec($ch);
-        //curl_close($ch);
+        curl_close($ch);
         //return (json_decode($returned));
     }
 }
