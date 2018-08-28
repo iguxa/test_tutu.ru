@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="955d1019-2560-4bd6-a437-bfebc948c41a" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1077745092">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.test" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_params.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/db_params.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="telegram_bot.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/telegram_bot.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="curl_function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/curl_function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_html_dom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/simple_html_dom.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="telegram_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/telegram_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BotApi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/BotApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1122" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BotApi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/BotApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3876">
+              <caret line="234" column="7" selection-start-line="234" selection-start-column="7" selection-end-line="234" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sendMessage</find>
+      <find>cha</find>
+      <find>sent</find>
+      <find>data_test2</find>
+      <find>nameurl</find>
+      <find>product_valid</find>
+      <find>getPdo</find>
+      <find>врем</find>
+      <find>getid</find>
+      <find>getId</find>
+      <find>get</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vendor/telegram-bot/api/src/BotApi.php" />
+        <option value="$PROJECT_DIR$/vendor/telegram-bot/api/src/Types/ReplyKeyboardMarkup.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/form.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/index 3.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/telegram_bot.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/news.php" />
+        <option value="$PROJECT_DIR$/news.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/db.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/init.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/form.js" />
+        <option value="$PROJECT_DIR$/plan.txt" />
+        <option value="$PROJECT_DIR$/config/db_params.php" />
+        <option value="$PROJECT_DIR$/config/telegram_config.php" />
+        <option value="$PROJECT_DIR$/lib/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 3.php" />
+        <option value="$PROJECT_DIR$/lib/curl_function.php" />
+        <option value="$PROJECT_DIR$/init.php" />
+        <option value="$PROJECT_DIR$/parc.php" />
+        <option value="$PROJECT_DIR$/components/db.php" />
+        <option value="$PROJECT_DIR$/components/telegram_bot.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/telegram-bot/api" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="319" />
+    <option name="y" value="413" />
+    <option name="width" value="1060" />
+    <option name="height" value="894" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="parc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parc" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\parc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\localhost\laravel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="955d1019-2560-4bd6-a437-bfebc948c41a" name="Default" comment="" />
+      <created>1521639536226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521639536226</updated>
+      <workItem from="1521639537603" duration="3323000" />
+      <workItem from="1521643810667" duration="26367000" />
+      <workItem from="1521742635884" duration="1267000" />
+      <workItem from="1522056658584" duration="395000" />
+      <workItem from="1522058058741" duration="7812000" />
+      <workItem from="1522231701555" duration="31045000" />
+      <workItem from="1522499766064" duration="21067000" />
+      <workItem from="1523453686801" duration="8638000" />
+      <workItem from="1523715437219" duration="859000" />
+      <workItem from="1535288360443" duration="4733000" />
+      <workItem from="1535356270369" duration="9530000" />
+      <workItem from="1535376496971" duration="6785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="121821000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/BadMethodCallException.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/Botan.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/Events/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/result 2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/news 2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/init.php" />
+    <entry file="file://$PROJECT_DIR$/../telega/index.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/Types/ReplyKeyboardHide.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/Types/ReplyKeyboardMarkup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/form.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index 3.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/add_red_art.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/add_new_art.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/config.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/AccountController.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/HomeController.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/Address.php" />
+    <entry file="file://$PROJECT_DIR$/../localhost/laravel/Address.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/telegram_bot.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/news.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/init.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/form.js" />
+    <entry file="file://$PROJECT_DIR$/plan.txt" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/db_params.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/telegram_config.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/Types/Chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/telegram_bot.php" />
+    <entry file="file://$PROJECT_DIR$/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/news.php" />
+    <entry file="file://$PROJECT_DIR$/parc.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ReplyKeyboardMarkup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1591" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13549">
+          <caret line="797" column="9" selection-start-line="797" selection-start-column="9" selection-end-line="797" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/HttpException.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/Exception.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/telegram-bot/api/src/BotApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="234" column="7" selection-start-line="234" selection-start-column="7" selection-end-line="234" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/db.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/telegram_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/curl_function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/BotApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/telegram_bot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db_params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

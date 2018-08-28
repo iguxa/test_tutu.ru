@@ -56,14 +56,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="162">
-                <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <first_editor relative-caret-position="255">
+                <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegram_bot/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="115" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_params.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegram_bot/config/db_params.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="telegram_config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/telegram_bot/config/telegram_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -94,6 +124,9 @@
         <option value="$PROJECT_DIR$/2.1.php" />
         <option value="$PROJECT_DIR$/2.2.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/telegram_bot/README.md" />
+        <option value="$PROJECT_DIR$/telegram_bot/config/db_params.php" />
+        <option value="$PROJECT_DIR$/telegram_bot/config/telegram_config.php" />
       </list>
     </option>
   </component>
@@ -106,9 +139,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="285" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -125,6 +158,17 @@
               <item name="test_tutu.ru" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_tutu.ru" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test_tutu.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_tutu.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="telegram_bot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_tutu.ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_tutu.ru" type="462c0819:PsiDirectoryNode" />
+              <item name="telegram_bot" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,6 +181,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\it-iguxa\Desktop\test_tutu.ru\telegram_bot" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,15 +216,15 @@
       <workItem from="1534922149687" duration="56502000" />
       <workItem from="1535374352129" duration="23985000" />
       <workItem from="1535458298980" duration="2662000" />
-      <workItem from="1535462873992" duration="566000" />
+      <workItem from="1535462873992" duration="1315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100222000" />
+    <option name="totallyTimeSpent" value="100971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="285" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dan.php" />
     <entry file="file://$PROJECT_DIR$/1.1.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -437,13 +479,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram_bot/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="115" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram_bot/config/db_params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram_bot/config/telegram_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
