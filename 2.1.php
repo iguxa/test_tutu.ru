@@ -60,7 +60,7 @@ class Cart
         return  $this->total_price;
     }
     //получение полной стоимости с учетом скидки
-    public function getDiscountedTotalAmount():int
+    public function getDiscountedTotalAmount()
     {
         $items = $this->_items;
         $items_count = count($items)-1;
@@ -90,7 +90,7 @@ class Cart
             for($i=0;$i<=$items_count;$i++){
                 $discount_part =$items[$i]['price']/$total_price;
                 $discount_price = $items[$i]['price'] - ($discount*$discount_part);
-                $this->_items[$i]['discount'] = round($discount_price,3);
+                $this->_items[$i]['discount'] = round($discount_price,2);
                 $ret += $this->_items[$i]['discount'];
             }
             $this->price_discount = $ret;
@@ -100,7 +100,7 @@ class Cart
             //применеие скидки пропорционально к итоговой стоимости исходя из стоимости каждого товара
             for($i=0;$i<=$items_count;$i++){
                 $discount_price = $items[$i]['price']*$discount;
-                $this->_items[$i]['discount'] = round($discount_price,3);
+                $this->_items[$i]['discount'] = round($discount_price,2);
                 $ret += $this->_items[$i]['discount'];
             }
             $this->price_discount = $ret;
@@ -125,12 +125,13 @@ class Cart
                 }
             }
         }
+        return $this;
     }
 }
 
-$item1 = ['item_id'=>1,'price'=>88,'sku'=>123];
-$item2 = ['item_id'=>2,'price'=>22,'sku'=>456];
-$item3 = ['item_id'=>3,'price'=>33,'sku'=>789];
+$item1 = ['item_id'=>1,'price'=>1000,'sku'=>123];
+$item2 = ['item_id'=>2,'price'=>2000,'sku'=>456];
+$item3 = ['item_id'=>3,'price'=>3000,'sku'=>789];
 
 $user = new User();
 $product = new Cart($user);
@@ -140,8 +141,7 @@ $product->addItem($item2);
 $product->addItem($item3);
 echo '<pre>';
 
-$product->getDiscountType('buy');
+
 var_dump($product->getTotalAmount());
-var_dump($product->_getDiscount());
-var_dump($product->getDiscountedTotalAmount());
+var_dump($product->getDiscountType('buy')->getDiscountedTotalAmount());
 var_dump($product->getItem());
