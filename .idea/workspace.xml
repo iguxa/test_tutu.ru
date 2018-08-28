@@ -15,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/1.2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="20" />
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -24,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/1.1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/2.1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -41,11 +41,8 @@
       <file leaf-file-name="1.3.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -53,11 +50,8 @@
       <file leaf-file-name="2.2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -66,8 +60,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <first_editor relative-caret-position="408">
+                <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
               </first_editor>
               <second_editor />
             </state>
@@ -113,10 +107,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="140" />
+    <option name="y" value="67" />
+    <option name="width" value="1060" />
+    <option name="height" value="894" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,11 +167,12 @@
       <workItem from="1534922149687" duration="56502000" />
       <workItem from="1535374352129" duration="23985000" />
       <workItem from="1535458298980" duration="2662000" />
+      <workItem from="1535462873992" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99656000" />
+    <option name="totallyTimeSpent" value="99709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -219,6 +214,51 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1.2.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.2.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
@@ -242,9 +282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -252,9 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -272,13 +306,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="97" selection-start-column="97" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/request.json" />
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -300,13 +328,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="97" selection-start-column="97" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/request.json" />
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -321,13 +343,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="97" selection-start-column="97" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/request.json" />
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -342,13 +358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="97" selection-start-column="97" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/request.json" />
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -363,13 +373,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="97" selection-start-column="97" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/request.json" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php" />
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -380,25 +384,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/request2.json" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php" />
-    <entry file="file://$PROJECT_DIR$/request.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="97" selection-start-column="97" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" column="47" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/request.json" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/database.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -413,59 +401,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dan.php" />
     <entry file="file://$PROJECT_DIR$/1.1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <first_editor relative-caret-position="408">
+            <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
           </first_editor>
           <second_editor />
         </state>
