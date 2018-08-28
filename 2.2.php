@@ -131,7 +131,7 @@ class Cron{
         $this->fail = $fail_list;
     }
     //составление списка id по которым была сделана поптыка на запуск скрипта на стороннем сервере
-    protected function getCrone($cron_urls):?string
+    protected function getCrone($cron_urls): ?string
     {
         $id = null;
         foreach ($cron_urls as $cron_url) {
