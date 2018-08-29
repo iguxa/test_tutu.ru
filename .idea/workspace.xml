@@ -21,12 +21,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="100" />
+          <entry key="php" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="100" />
+          <entry key="PHP" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class" />
@@ -65,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="1044">
               <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
             </state>
           </provider>
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2.2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="133" column="45" selection-start-line="133" selection-start-column="45" selection-end-line="133" selection-end-column="45" />
+            <state relative-caret-position="602">
+              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -178,7 +178,7 @@
       <path value="$PROJECT_DIR$/telegram_bot/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="316" />
     <option name="width" value="1936" />
@@ -250,15 +250,15 @@
       <workItem from="1535374352129" duration="23985000" />
       <workItem from="1535458298980" duration="2662000" />
       <workItem from="1535462873992" duration="1315000" />
-      <workItem from="1535477099858" duration="1920000" />
+      <workItem from="1535477099858" duration="3750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102891000" />
+    <option name="totallyTimeSpent" value="104721000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="316" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
@@ -311,16 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegram_bot/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="115" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/telegram_bot/config/db_params.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -352,10 +342,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+    <entry file="file://$PROJECT_DIR$/telegram_bot/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="115" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -369,10 +362,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2.1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2.2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="133" column="45" selection-start-line="133" selection-start-column="45" selection-end-line="133" selection-end-column="45" />
+        <state relative-caret-position="602">
+          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
         </state>
       </provider>
     </entry>

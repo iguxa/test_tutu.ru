@@ -94,14 +94,14 @@ class Cron{
 
     public function __construct()
     {
-        self::setUrls();
-        self::setStatus();
-        self::setFails();
+        $this->setUrls();
+        $this->setStatus();
+        $this->setFails();
     }
     //получение списка ссылок,при переходе на которые срабатывает скрипт
-    private function setUrls():void
+    private function setUrls():?void
     {
-        $cron_url = false;
+        $cron_url = null;
         $urls = Db::getCron();
         while ($row = $urls -> fetch()) {
             $cron_url[] = $row;
@@ -111,21 +111,26 @@ class Cron{
     //получение статуса о выполнении скрипта от сервера на который была отправлена команда
     public function setStatus():void
     {
-        $crons_status = $_POST['cron_status'] ?? false;
+        $crons_status = $_POST['cron_status'] ?? null;
         $this->cron_status = $crons_status;
     }
     //список ошибок по типам, не получен ответ от сервера куда была отправлена команда и ошибка в процессе выполнения скрипта на сервере приемщике
     public function setFails():void
     {
-        $fails = Db::getFails();
-        $fail = [];
-        $not_respond = [];
-        while ($row = $fails['fail'] -> fetch()) {
-            $fail[] = $row;
+        $fails = Db::getFails() ?? null;
+        $fail_list = null;
+        if($fails) {
+            $fail = [];
+
+            $not_respond = [];
+            while ($row = $fails['fail']->fetch()) {
+                $fail[] = $row;
+            }
+            while ($row = $fails['not_respond']->fetch()) {
+                $not_respond[] = $row;
+            }
         }
-        while ($row = $fails['not_respond'] -> fetch()) {
-            $not_respond[] = $row;
-        }
+
         $fail_list['fail'] = $fail;
         $fail_list['not_respond'] = $not_respond;
         $this->fail = $fail_list;
@@ -144,12 +149,12 @@ class Cron{
     //получение списка id у которых успешно и не успешно отработали скрипты на сервере куда была отправлена команда
     protected function getStatus($crons_status):?array
     {
-        $status['id_success'] = $crons_status['success'] ?? false;
-        $status['id_fail'] = $crons_status['fail'] ?? false;
-        $id_success = false;
-        $id_fail = false;
-        $cron_id_success = false;
-        $cron_id_fail = false;
+        $status['id_success'] = $crons_status['success'] ?? null;
+        $status['id_fail'] = $crons_status['fail'] ?? null;
+        $id_success = null;
+        $id_fail = null;
+        $cron_id_success = null;
+        $cron_id_fail = null;
         $cron_status = null;
 
         if($status['id_success']){
@@ -174,9 +179,9 @@ class Cron{
     //запуск скрипта
     public function updCrone()
     {
-        $cron_urls = $this->urls_cron ?? false;//список url на которые надо отправить команды
+        $cron_urls = $this->urls_cron ?? null;//список url на которые надо отправить команды
         if($cron_urls){
-            $cron_id = self::getCrone($cron_urls);//отправка команд
+            $cron_id = $this->getCrone($cron_urls);//отправка команд
             Db::CountTryCron($cron_id);//увеличение количества попыток отправить команду,при достижении более 5 попыток запустить скрипт,убирается из списка для повторной отправки команды
         }
         return $this;
@@ -184,9 +189,9 @@ class Cron{
     //обработка ответа с сервера на который была отправлена команда
     public function updStatus()
     {
-        $crons_status = $this->cron_status ?? false;
+        $crons_status = $this->cron_status ?? null;
         if($crons_status){
-            $cron_upd = self::getStatus($crons_status);//получение списка id у которых успешно и не успешно отработали скрипты на сервере куда была отправлена команда
+            $cron_upd = $this->getStatus($crons_status);//получение списка id у которых успешно и не успешно отработали скрипты на сервере куда была отправлена команда
             if($crons_status['id_success']){
                 Db::UpdStatusSuccess($cron_upd);//обновить статус успешно завершенных скриптов
             }
@@ -198,7 +203,7 @@ class Cron{
     }
     //получение ошибок по типам, не получен ответ от сервера куда была отправлена команда и ошибка в процессе выполнения скрипта на сервере приемщике
     public function Debug(){
-        $fail = $this->fail ?? false;;
+        $fail = $this->fail ?? null;
         return $fail;
     }
 
